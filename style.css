@@ -1,0 +1,163 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .navbar {
+    background-color: #0d89dc; 
+    overflow: hidden;
+    margin: 0 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbar a:hover {
+    background-color: #1c9aee; 
+    color: white;
+  }
+
+  .navbar a.active {
+    background-color:  #1c9aee; 
+    color: white;
+  }
+
+  .navbar .logo {
+    padding: 10px;
+  }
+
+  .navbar .icon {
+    display: none;
+  }
+
+  @media screen and (max-width: 600px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+
+    .navbar.responsive {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .navbar.responsive .icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 14px 16px;
+    }
+
+    .navbar.responsive a {
+      display: none;
+    }
+
+    .navbar.responsive a.icon {
+      float: right;
+      display: block;
+    }
+
+    .navbar.responsive a.icon:hover {
+      background-color:  #1c9aee;
+    }
+  }
+
+
+  .carousel-inner {
+    position: relative;
+  }
+
+  .carousel-caption {
+    
+    color: white; 
+    
+  }
+
+  .carousel-inner img {
+    filter: brightness(70%); 
+  }
+
+ 
+  .containerr{
+    width: 100%;
+    padding: 200px;
+    background-color: #a8d9f9;
+    
+  }
+
+  .image{
+    height: 200px;
+    width: 200px;
+  }
+
+  footer{
+    background-color: #072378;
+  }
+
+.footerContainer {
+width: 100%;
+padding: 70px 30px 20px;
+}
+
+.social{
+display: flex;
+justify-content: center;
+}
+
+.social a{
+text-decoration: none;
+padding: 10px;
+background-color: #ffffff;
+margin: 10px;
+border-radius: 50%;
+}
+
+.social a i{
+font-size: 2em;
+color: #072378;
+opacity: 0.9;
+}
+
+.social a:hover{
+background-color: #072378;
+transition: 0.5s;
+}
+
+.social a:hover i{
+color: #ffffff;
+transition: 0.5s;
+}
+.navv{
+margin: 30px 0;
+
+}
+.navv ul{
+display: flex;
+justify-content: center;
+}
+.navv ul li a{
+text-align: center;
+color: #ffffff;
+margin: 20px;
+text-decoration: none;
+}
+.navv ul li a:hover{
+opacity: 1;
+}
+.bottom{
+text-align: center;
+color: #ffffff;
+}
